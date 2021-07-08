@@ -1,0 +1,145 @@
+.doc_planner{
+    width: 268px;
+    height: 33px;
+}
+.pr{
+    display: flex;
+    justify-content: space-around;
+}
+.nav_elem{
+    text-decoration: none;
+    display:inline-block;
+    padding: 5px;
+}
+
+li a:link{
+    text-decoration: none;
+    color: #747474;
+}
+li a:visited{
+  text-decoration: none;
+  color: #747474;
+}
+li a:hover{
+    text-decoration: none;
+    color: #00b39b;
+}
+nav ul{
+    list-style-type: none;
+}
+.nav_elem .active{
+    text-decoration: none;
+    color: #00b39b;
+}
+/* Dropdown start */
+.dropbtn {
+    border:none;
+    background-color: white;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #747474;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #ddd;
+      text-decoration: none;
+    color: #00b39b;
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* Dropdown end */
+  
+.im{
+  display: flex;
+  justify-content: center;
+}
+::selection {
+  color:white;
+  background: #00b39b;
+}
+.col-1{
+  width: 28%;
+margin-left: 280px;
+font-size: 16px;
+}
+.col-2{
+  width: 28%;
+margin-left: 70px;
+font-size: 16px;
+}
+.para{
+  display: flex;
+  flex-direction: row;
+  margin-bottom:5em;
+}
+.col-3{
+  width: 22%;
+  color: white;
+  font-family: "Work Sans",Arial,sans-serif;
+  padding: 10px;
+  border-radius: 1em;
+  margin-right: 50px;
+}
+.col-3 h2{
+  font-size: 1.625em;
+  font-weight: 2;
+}
+.col-3 p{
+  font-size: 1.5em;
+  font-weight: 1;
+  line-height: 1.2;
+  letter-spacing: -.3px;
+}
+.m{
+  margin-top: 40px;
+  font-size: 1.5em;
+  font-weight: 2;
+}
+.org{
+  display: flex;
+  margin-left: 280px;
+  
+}
+.m a:link{
+  color: white;
+}
+.m a:visited{
+  color: white;
+}
+.brands{
+  width: 80%;
+  margin-left: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.brands_im{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+.brands h1{
+  font-size: 2em;
+}
+
+
